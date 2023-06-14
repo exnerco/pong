@@ -1,0 +1,17 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+canvas {
+    background-color: black;
+    color: white;
+}
+
+audio {
+    display: none;
+}

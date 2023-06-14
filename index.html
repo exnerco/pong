@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head title="Ping Pong">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ping Pong</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="main">
+            <div id="audio">
+                <audio id="ballhit" preload="metadata">
+                    <source src="sounds/ball_hit.aac" type="audio/aac" />
+                    <source src="sounds/ball_hit.wav" type="audio/wav" />
+                    Your browser doesn't support HTML5 Audio Player, so the game will not have sound
+                </audio>
+                <audio id="lose" preload="metadata">
+                    <source src="sounds/lose.aac" type="audio/aac" />
+                    <source src="sounds/lose.wav" type="audio/wav" />
+                    Your browser doesn't support HTML5 Audio Player, so the game will not have sound
+                </audio>
+                <audio id="select" preload="metadata">
+                    <source src="sounds/select.aac" type="audio/aac" />
+                    <source src="sounds/select.wav" type="audio/wav" />
+                    Your browser doesn't support HTML5 Audio Player, so the game will not have sound
+                </audio>
+            </div>
+            <div id="game">
+                <canvas width="640" height="480">Your browser doesn't support HTML5 Canvas</canvas>
+            </div>
+            <!--Noscript in case user disables Javascript-->
+            <noscript>This game doesn't work without Javascript enabled. Please enable Javascript</noscript>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
